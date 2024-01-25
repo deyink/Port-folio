@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/deyink/Port-folio.git/static/css/main.954bf127.css",
+    "main.js": "/deyink/Port-folio.git/static/js/main.cb97e0ae.js",
+    "static/js/787.7da95b79.chunk.js": "/deyink/Port-folio.git/static/js/787.7da95b79.chunk.js",
+    "static/media/port3.jpg": "/deyink/Port-folio.git/static/media/port3.7ddefad5b9a8b097ec10.jpg",
+    "static/media/port2.jpg": "/deyink/Port-folio.git/static/media/port2.e15964f50022bace62d6.jpg",
+    "static/media/Hero_img.jpg": "/deyink/Port-folio.git/static/media/Hero_img.0d8a6760525219a24331.jpg",
+    "static/media/port1.jpg": "/deyink/Port-folio.git/static/media/port1.0473277ebd43b67d440f.jpg",
+    "index.html": "/deyink/Port-folio.git/index.html",
+    "main.954bf127.css.map": "/deyink/Port-folio.git/static/css/main.954bf127.css.map",
+    "main.cb97e0ae.js.map": "/deyink/Port-folio.git/static/js/main.cb97e0ae.js.map",
+    "787.7da95b79.chunk.js.map": "/deyink/Port-folio.git/static/js/787.7da95b79.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.954bf127.css",
+    "static/js/main.cb97e0ae.js"
+  ]
+}
