@@ -35,7 +35,7 @@ const Contact = () => {
            <h4> Get In Touch</h4>
            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem ipsam possimus et, soluta mollitia tempora odio magnam atque voluptates, repudiandae facilis dolores totam sint eligendi blanditiis earum maxime sit dicta.</p>
            <div className="contact-address">
-            <address><img src={location} alt="" width={"18rem"} height={"23rem"} />IBADAN, OYO-STATE, NIGERIA</address>
+            <address><img src={location} alt="" width={"18rem"} height={"23rem"} />IBADAN, OYO-STATE, NIGERIA.</address>
             <p><img src={phone} alt="" width={"18rem"} height={"23rem"} />+234 70 86503756</p>
             <p><img src={mail} alt="" width={"18rem"} height={"23rem"} />yusufadeyinka55@gmail.com</p>
            </div>
