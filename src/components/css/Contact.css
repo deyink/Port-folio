@@ -170,5 +170,5 @@ input, textarea{
 .socials{
     margin-top: 5rem;
     display: flex;
-    gap: 3rem;
+    gap: .5rem;
 }

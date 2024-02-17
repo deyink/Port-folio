@@ -1,5 +1,5 @@
 import React from 'react'
-import background from "../assets/Hero_img.jpg"
+import background from "../assets/Hero_img.webp"
 import "./css/Home.css"
 
 

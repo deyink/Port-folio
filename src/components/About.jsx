@@ -3,7 +3,9 @@ import "./css/About.css"
 import pic from "../assets/pic1.jpg"
 
 
+
 export default function About() {
+ 
   return (
     <div className='about' id='About' >
       <div className="about-container">
@@ -17,6 +19,8 @@ export default function About() {
           <p><span>Profile:</span> Full-Stack Web Developer</p>
           <p><span>Email:</span> yusufadeyinka55@gmail.com </p>
           <p><span>Phone:</span> (234) 7086503756 </p>
+          <p>My Favourite Color is  </p>
+       
         </div>
         </div>
         <div className="skill-container">
@@ -40,8 +44,7 @@ export default function About() {
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis nemo dolore asperiores voluptatibus repellendus aspernatur placeat odio ea, magnam sequi quaerat, beatae voluptates officiis repudiandae porro provident accusamus aperiam modi.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis nemo dolore asperiores voluptatibus repellendus aspernatur placeat odio ea, magnam sequi quaerat, beatae voluptates officiis repudiandae porro provident accusamus aperiam modi.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis nemo dolore asperiores voluptatibus repellendus aspernatur placeat odio ea, magnam sequi quaerat, beatae voluptates officiis repudiandae porro provident accusamus aperiam modi.</p> 
-    
-       
+   
       </div>
       </div>
 

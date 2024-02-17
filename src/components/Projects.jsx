@@ -1,6 +1,6 @@
 import React from "react";
 import './css/Projects.css'
-import port1 from '../assets/port1.jpg'
+import port1 from '../assets/port1.webp'
 
 
 
@@ -14,7 +14,7 @@ const Projects = ()=>{
             <h3>PORTFOLIO</h3>
             
             <div className="port-box">
-                <img src={port1} alt="" width={"100%"} height={"70%"} /> 
+                <img src={port1} alt="" width={"100%"} height={"70%"} loading="lazy" /> 
                 <button className="visit">
                 <span className="circle" aria-hidden="true">
                 <span className="icon arrow"></span>
@@ -28,7 +28,7 @@ const Projects = ()=>{
             <div className="port-box">
           
                 <img src={port1} alt="" width={"100%"}
-                height={"70%"} />
+                height={"70%"} loading="lazy" />
                 {/* <h5>WEB DESIGN for______ </h5>
                 <h5>DATE:</h5>
                 <h5>STATUS: </h5> */}
@@ -42,7 +42,7 @@ const Projects = ()=>{
             </div>
             
             <div className="port-box">
-                <img src={port1} alt="" width={"100%"}  height={"70%"} />
+                <img src={port1} alt="" width={"100%"}  height={"70%"} loading="lazy" />
                 {/* <h5> FULL-STACK DEV____ </h5>
                 <h5>DATE:</h5>
                 <h5>STATUS: </h5> */}
