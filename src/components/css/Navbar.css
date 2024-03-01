@@ -23,9 +23,17 @@ nav ul li::after{
     display: block;
     transition: 0.5s;
 }
-nav ul li:hover::after{
+.active::after, nav ul li:hover::after{
     width: 60%;
+    content: '';
+    height: 2px;
+    background: white;
+    display: block;
+    transition: 0.5s;
 }
+
+
+
 @media(max-width:900px){
     nav ul li:hover::after{
     width: 20%;

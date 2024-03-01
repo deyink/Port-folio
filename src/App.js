@@ -16,12 +16,12 @@ import { Testimonials } from './components/Testimonials';
 function App() {
   return (
   
-    <div>
+    <div >
     <Navbar/>
     <Home/>
     <About/>
     <Services/>
-    <Projects/> 
+ 
    
     <Testimonials/>
     <Blogs/>

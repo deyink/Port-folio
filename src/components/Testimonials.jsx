@@ -19,7 +19,7 @@ export const Testimonials = () => {
       };
     
   return (
-    <div className='testimonials' style={{
+    <div className='testimonials' id='Testimonial' style={{
         backgroundImage: `url(${port2})`,   
         backgroundPosition: "center",
         backgroundSize: "cover",

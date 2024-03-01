@@ -28,6 +28,9 @@ export default function Navbar() {
         const menu = document.querySelector(".menu-btn")
         menu.style.display= "block"
         }
+
+    
+
   return (
     <div >
         <nav>
@@ -42,27 +45,29 @@ export default function Navbar() {
             </div> 
             </Links>
             </BrowserRouter>
-            <ul className="desktop" >
+            <ul className="desktop" id='desktop' >
             <BrowserRouter>
-         <li className='active' > <Links to='#Home' smooth > Home </Links></li>
-               <li> <Links to='#About' smooth >About</Links> </li>
-               <li> <Links to='#Services' smooth >Services</Links>  </li>
-                <li> <Links to='#Projects' smooth >Projects</Links>  </li>
-                <li> <Links to='#Blogs' smooth >Blogs</Links>  </li>
-                <li> <Links to='#Contact' smooth >Contact</Links>   </li>
-                </BrowserRouter>
+              <li id='list' > <Links to='#Home' smooth > Home </Links></li>
+              <li id='list' > <Links to='#About' smooth >About</Links> </li>
+              <li id='list' > <Links to='#Services' smooth >Services</Links>  </li>
+              <li id='list' > <Links to='#Projects' smooth >Projects</Links>  </li>
+              <li id='list' > <Links to='#Blogs' smooth >Blogs</Links>  </li>
+              <li id='list' > <Links to='#Contact' smooth >Contact</Links>   </li>
+              <li id='list' > <Links to="#Testimonial" smooth> Feedback </Links> </li>
+            </BrowserRouter>
                
             </ul>
            <img className="menu-btn" src={menu} alt="" width={"30px"} height={"30px"} style={{cursor:"pointer", }} onClick={()=>{showSidebar(); menuHide()}} />
            <div className="sidebar">
            <ul>
            <BrowserRouter>
-         <li className='active' > <Links to='#Home' smooth > Home </Links></li>
+               <li> <Links to='#Home' smooth > Home </Links></li>
                <li> <Links to='#About' smooth >About</Links> </li>
                <li> <Links to='#Services' smooth >Services</Links>  </li>
-                <li> <Links to='#Projects' smooth >Projects</Links>  </li>
-                <li> <Links to='#Blogs' smooth ></Links> Blogs </li>
-                <li> <Links to='#Contact' smooth >Contact</Links>   </li>
+               <li> <Links to='#Projects' smooth >Projects</Links>  </li>
+               <li> <Links to='#Blogs' smooth ></Links> Blogs </li>
+               <li> <Links to='#Contact' smooth >Contact</Links>   </li>
+               <li> <Links to="#Testimonial" smooth> Feedback </Links> </li>
                 </BrowserRouter>
               
             </ul>

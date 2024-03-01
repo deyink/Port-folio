@@ -22,6 +22,18 @@ export default function Home() {
                 <h1>I'm Yusuf Adeyinka </h1>
               <p id="content"></p>
               </div>
+
+                <div className="container">
+      <div className="writing-text">
+        <span className="text">A FULLSTACK WEB DEVELOPER.</span>
+      </div>
+      <div className="writing-text">
+        <span className="text">A WEB DESIGNER.</span>
+      </div>
+      <div className="writing-text">
+        <span className="text">A WEB RESPONSIVENESS MASTER.</span>
+      </div>
+    </div>
                 
          </div>
      
