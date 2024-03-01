@@ -25,7 +25,7 @@ export default function Home() {
 
                 <div className="container">
       <div className="writing-text">
-        <span className="text">A FULLSTACK WEB DEVELOPER.</span>
+        <span className="text">A FULL-STACK WEB DEVELOPER.</span>
       </div>
       <div className="writing-text">
         <span className="text">A WEB DESIGNER.</span>
