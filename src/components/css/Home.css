@@ -44,7 +44,7 @@
     animation-iteration-count: infinite;
   }
   
-  .text {
+   .text {
     display: inline-block;
     animation: cursor-blink 2s infinite;
     color: white;

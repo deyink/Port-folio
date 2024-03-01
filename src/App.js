@@ -22,7 +22,7 @@ function App() {
     <About/>
     <Services/>
  
-   
+   <Projects />
     <Testimonials/>
     <Blogs/>
     <Contact/>
