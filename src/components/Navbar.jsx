@@ -11,12 +11,12 @@ import close from "../assets/close.png"
 
 export default function Navbar() {
     const showSidebar= ()=>{
-       const sidebar = document.querySelector (".sidebar")
+       const sidebar = document.querySelector (".desktop")
         sidebar.style.display= "flex"
     }
 
     const hideSidebar = ()=>{
-        const sidebar = document.querySelector(".sidebar")
+        const sidebar = document.querySelector(".desktop")
         sidebar.style.display= "none"
     }
 
@@ -28,6 +28,14 @@ export default function Navbar() {
         const menu = document.querySelector(".menu-btn")
         menu.style.display= "block"
         }
+    const showClose = ()=>{
+        const close = document.querySelector(".close-btn")
+        close.style.display= "block"
+    }
+    const hideClose = ()=>{
+        const close = document.querySelector(".close-btn")
+        close.style.display= "none"
+    }
   return (
     <div >
         <nav>
@@ -53,8 +61,11 @@ export default function Navbar() {
                 </BrowserRouter>
                
             </ul>
-           <img className="menu-btn" src={menu} alt="" width={"30px"} height={"30px"} style={{cursor:"pointer", }} onClick={()=>{showSidebar(); menuHide()}} />
-           <div className="sidebar">
+            <img className="close-btn" src={close} alt="" width={"21px"} height={"21px"} style={{cursor:"pointer"}} onClick={()=>{hideSidebar(); showMenu(); hideClose() }} />
+           <img className="menu-btn" src={menu} alt="" width={"21px"} height={"21px"} style={{cursor:"pointer", }} onClick={()=>{showSidebar(); menuHide(); showClose()}} />
+
+           
+           {/* <div className="sidebar">
            <ul>
            <BrowserRouter>
          <li className='active' > <Links to='#Home' smooth > Home </Links></li>
@@ -66,8 +77,8 @@ export default function Navbar() {
                 </BrowserRouter>
               
             </ul>
-            <img className="close-btn" src={close} alt="" width={"30px"} height={"30px"} style={{cursor:"pointer"}} onClick={()=>{hideSidebar(); showMenu()}} />
-           </div>
+            
+           </div> */}
         </nav>
     </div>
 

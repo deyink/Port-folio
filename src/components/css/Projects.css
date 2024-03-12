@@ -28,6 +28,18 @@
     box-shadow: 1px 1px 10px 1px #8888;
 
 }
+@media(max-width:900px){
+    .port-box{
+        width: 100%;
+        height: 40vh;
+        margin: auto;
+        margin-top: 1rem;
+        background-color: white;
+        border-radius: 15px;
+        box-shadow: 1px 1px 10px 1px #8888;
+    
+    }
+}
 .visit {
     position: relative;
     display: inline-block;
