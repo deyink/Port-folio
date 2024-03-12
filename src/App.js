@@ -7,7 +7,6 @@ import Home from './components/Home';
 import Navbar from './components/Navbar';
 import Projects from './components/Projects';
 import Services from './components/Services'
-import { Testimonials } from './components/Testimonials';
 
 
 

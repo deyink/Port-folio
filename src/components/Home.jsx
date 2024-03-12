@@ -72,7 +72,9 @@ export default function Home() {
                }}>
               <div className="hero-name">
                 <h1>I'm Yusuf Adeyinka </h1>
-              <p id="content"></p>
+              <h4>A Frontend web Developer</h4>
+              <h4>A Web Designer</h4>
+              
               </div>
                 
          </div>

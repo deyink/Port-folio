@@ -27,8 +27,13 @@ export default function About() {
           <progress style={{width:"100%"}}  value={65} max={100} />
           <p>JavaScript 85%</p>
           <progress style={{width:"100%"}}  value={85} max={100} />
-          <p>HTML 75%</p>
+          <p>ReactJs 75%</p>
           <progress style={{width:"100%"}} value={75} max={100} />
+          <p>Git/Github</p>
+          <progress style={{width:'100%'}} value={90} max={100} />
+          <p>NodeJs</p>
+          <progress style={{width:'100%'}}  value={40} max={100} />
+
         </div>
         
       </div>
