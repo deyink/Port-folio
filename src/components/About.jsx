@@ -41,10 +41,17 @@ export default function About() {
         <h3>
           About Me
         </h3>
-     
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis nemo dolore asperiores voluptatibus repellendus aspernatur placeat odio ea, magnam sequi quaerat, beatae voluptates officiis repudiandae porro provident accusamus aperiam modi.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis nemo dolore asperiores voluptatibus repellendus aspernatur placeat odio ea, magnam sequi quaerat, beatae voluptates officiis repudiandae porro provident accusamus aperiam modi.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis nemo dolore asperiores voluptatibus repellendus aspernatur placeat odio ea, magnam sequi quaerat, beatae voluptates officiis repudiandae porro provident accusamus aperiam modi.</p> 
+        <p>
+          Meet <b>ADEYINKA YUSUF</b>, a dynamic frontend developer with a passion for crafting immersive digital experiences. With a robust skill set encompassing HTML, CSS, JavaScript, Git/GitHub, and React.js, I stands at the forefront of innovation in web development.
+        </p>
+        <p>
+        Driven by a relentless pursuit of excellence,I approache every project with creativity and meticulous attention to detail. Whether it's translating design concepts into elegant code or optimizing user interfaces for seamless interaction, I thrive in the fast-paced world of frontend development.
+        </p>
+        <p>Equipped with a deep understanding of responsive design principles and the latest frontend technologies, I'm adept at building intuitive and visually stunning websites and web applications. From dynamic animations to complex user interfaces, I leverage the power of HTML, CSS, and JavaScript to bring ideas to life on the digital canvas.
+
+        </p>
+        <p>Beyond technical prowess, I'm a collaborative team player who thrives in agile environments. With a proactive approach to problem-solving and excellent communication skills, I excel at working closely with designers, developers, and stakeholders to deliver exceptional results. With a commitment to continuous learning and staying abreast of industry trends, I'm poised to make a lasting impact in the ever-evolving landscape of frontend development.
+          </p> 
     
        
       </div>

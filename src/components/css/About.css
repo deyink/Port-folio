@@ -31,7 +31,7 @@
    
   
 }
-@media(max-width:600px){
+@media(max-width:900px){
     .container-left{
       width: 98%;
     }
@@ -46,7 +46,12 @@
     box-shadow: powderblue;
      
 }
-
+.info-container img{
+    border: gray solid 1px;
+    margin-top: 2rem;
+    margin-right: 1rem;
+    border-radius: 15px;
+}
 
 
 .info{
@@ -83,14 +88,16 @@ span{
     float: right;
     margin-top: 5%;
     margin-bottom: 5%;
-    padding-left: 5px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 2rem;
     /* background-color: red; */
    
    
     
 
 }
-@media (max-width:600px){
+@media (max-width:900px){
     .container-right{
         width: 98%;
     }
