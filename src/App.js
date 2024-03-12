@@ -23,8 +23,7 @@ function App() {
     <Services/>
     <Projects/> 
    
-    <Testimonials/>
-    <Blogs/>
+    
     <Contact/>
     </div>
     
