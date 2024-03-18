@@ -1,5 +1,5 @@
 nav{
-    height: 9vh;
+    height: 10vh;
     padding-top: auto;
     padding-bottom: auto;
     background-color:rgb(8, 7, 7);
@@ -85,6 +85,13 @@ margin: 15px;
 .navlist{
     justify-content: center;
     align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+@media(min-width:990px){
+.navlist{
+margin-right: 10rem;
+}
 }
 
 
@@ -116,6 +123,8 @@ margin: 15px;
     }
     .menu-btn{
         display: flex;
+        margin-top: auto;
+        margin-bottom: auto;
       
     
     }
