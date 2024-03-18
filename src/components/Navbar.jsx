@@ -53,12 +53,12 @@ export default function Navbar() {
             <div className="navlist" id='navlist' >
 
                 <ul>
-                <li className='active' > <Links to='#Home' smooth > Home </Links></li>
-               <li> <Links to='#About' smooth >About</Links> </li>
-               <li> <Links to='#Services' smooth >Services</Links>  </li>
-                <li> <Links to='#Projects' smooth >Projects</Links>  </li>
-                <li> <Links to='#Blogs' smooth >Blogs</Links>  </li>
-                <li> <Links to='#Contact' smooth >Contact</Links>   </li>
+                <li onClick={hideSidebar} > <Links to='#Home' smooth > Home </Links></li>
+               <li  onClick={hideSidebar}> <Links to='#About' smooth >About</Links> </li>
+               <li  onClick={hideSidebar}> <Links to='#Services' smooth >Services</Links>  </li>
+                <li onClick={hideSidebar} > <Links to='#Projects' smooth >Projects</Links>  </li>
+                <li onClick={hideSidebar} > <Links to='#Blogs' smooth >Blogs</Links>  </li>
+                <li onClick={hideSidebar} > <Links to='#Contact' smooth >Contact</Links>   </li>
 
                 <img className="close-btn" src={close} alt="" width={"21px"} height={"21px"} style={{cursor:"pointer"}} onClick={hideSidebar} />
               

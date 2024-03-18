@@ -1,7 +1,7 @@
 nav{
-    height: auto;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    height: 9vh;
+    padding-top: auto;
+    padding-bottom: auto;
     background-color:rgb(8, 7, 7);
     color: white;
     display: flex;
@@ -16,11 +16,10 @@ nav .logo{
     font-size: 1.5rem;
     cursor: pointer;
     font-weight: 700;
+   
 }
 
-.desktop{
-    display: flex;
-}
+
 nav ul li::after{
     content: '';
     width: 0%;
@@ -84,7 +83,6 @@ margin: 15px;
     display: none;
 }
 .navlist{
-   
     justify-content: center;
     align-items: center;
 }
