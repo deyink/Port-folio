@@ -5,10 +5,10 @@ nav{
     background-color:rgb(8, 7, 7);
     color: white;
     display: flex;
-    justify-content: space-between;
     position: fixed;
     width: 100%;
     z-index: 99;
+    justify-content: space-between;
 }
 nav .logo{
     padding: 20px;
@@ -80,48 +80,48 @@ nav img{
 display: block;
 margin: 15px;
 }
-.close-btn{
+.close-btn, .menu-btn {
     display: none;
 }
-@media(max-width:990px){
+.navlist{
+   
+    justify-content: center;
+    align-items: center;
+}
 
-    .desktop{
+
+
+
+@media (max-width: 990px){
+
+    .navlist{
+        position: absolute;
         width: 60%;
+        right: -600px;
         height: 100vh;
         background-color: black;
-        z-index: 999;
-        display: flex;
-        flex-direction: column;
-        align-items: left;
+        transition: 0.65s ease-in-out;
+       
     
     }
-
-}
-
-@media (min-width: 990px){
-    .menu-btn , .close-btn{
-        display: none;
-    } 
-    
-}
-@media (max-width: 990px){
-    .desktop{
-        display: none;
+    .navlist ul{
+        display:flex ;
+        flex-direction: column;
+        gap: 3rem;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        
     }
     .close-btn{
-        display: none;
+        display: flex;
+    }
+    .menu-btn{
+        display: flex;
+      
+    
     }
    
    
 }
    
-   
-@media (max-width: 990px){
-    .desktop{
-        width: 50%;
-    }
-    nav{
-        
-        right: 0px;
-    }
-}

@@ -1,4 +1,5 @@
 
+import { BrowserRouter } from 'react-router-dom';
 import './App.css';
 import About from './components/About';
 import { Blogs } from './components/Blogs';
@@ -15,7 +16,7 @@ import Services from './components/Services'
 function App() {
   return (
   
-    <div>
+    <BrowserRouter>
     <Navbar/>
     <Home/>
     <About/>
@@ -24,7 +25,7 @@ function App() {
    
     
     <Contact/>
-    </div>
+    </BrowserRouter>
     
   );
 }
