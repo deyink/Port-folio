@@ -1,4 +1,5 @@
 import React from 'react'
+import { useState } from 'react'
 import './css/Contact.css'
 import wall from "../assets/c-background.jpg"
 import location from '../assets/location.png'
@@ -10,6 +11,10 @@ import whatsapp from '../assets/whatsapp.png'
 import copyright from '../assets/copyright.png'
 
 const Contact = () => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [subject, setSubject] = useState("");
+  const [text, setText] = useState("")
   return (
 <div className="contact" id='Contact'  style={{
     backgroundImage: `url(${wall})` ,   
@@ -24,10 +29,10 @@ const Contact = () => {
            <div className="left-contact">
            <h4> Contact Us </h4>
            <form action="post">
-            <input type="text" value='Your Name' placeholder='Your Name' />
-            <input type="text" value='Your Email' placeholder='Your Email'/>
-            <input type="text" value='Subject' placeholder='Subject' />
-            <textarea name="" id="" cols="30" rows="10" value='Send Us a Message' ></textarea>
+            <input type="text" value={name} placeholder='Your Name' onChange={(e)=>setName(e.target.value)} />
+            <input type="text" value={email} placeholder='Your Email' onChange={(e)=>setEmail(e.target.value)} />
+            <input type="text" value={subject} placeholder='Subject' onChange={(e)=>setSubject(e.target.value)} />
+            <textarea name="" id="" cols="30" rows="10" value={text} placeholder='send us a message' onChange={(e)=>setText(e.target.value)} ></textarea>
            </form>
            <button className='send-message' ><span>Send Message</span></button>
            </div>
@@ -42,7 +47,7 @@ const Contact = () => {
             <p><img src={mail} alt="" width={"18rem"} height={"23rem"} />yusufadeyinka55@gmail.com</p>
            </div>
            <div className="socials">
-           <img src={whatsapp} alt="" width={"30rem"} height={"30rem"} />
+           <a href="https://wa.link/7ntlxr" target='blank' ><img src={whatsapp} alt="" width={"30rem"} height={"30rem"} /></a>
            <img src={facebook} alt="" width={"30rem"} height={"30rem"} />
            <img src={instagram} alt="" width={"30rem"} height={"30rem"} />
            </div>

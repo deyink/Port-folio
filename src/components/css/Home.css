@@ -8,20 +8,30 @@
     text-align: left;
     justify-content: center;
     align-items: center;
-    font-size:2.5rem;
     font-weight: 700;
     padding-top: 15rem;
     gap: 40px;
-    margin-left: 1rem;
+    margin-left: 2rem;
   
 }
+.hero-name h1{
+    font-size: 5vw;
+}
+.hero-name h4{
+    font-size: 3vw;
+}
+
+
 @media (max-width:990px){
     .hero-name{
         font-size: 1.5rem;
         padding-top: 15rem;
     }
+    *{
+        font-size: 0.9rem;
+    }
 }
 .hero-name h4{
     padding-top: 30px;
-    font-size: 2rem;
+    
 }
