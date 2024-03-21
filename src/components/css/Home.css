@@ -14,13 +14,31 @@
     padding-top: 15rem;
     gap: 40px;
     margin-left: 2rem;
+    
   
 }
 .hero-name h1{
-    font-size: 3.5rem;
+    font-size: 5rem;
 }
-.hero-name h4{
-    font-size: 2rem;
+.ido h4{
+    opacity: 0;
+    animation: fade-in 16s ease-in-out infinite;
+}
+.ido h4:nth-child(1){
+    animation-delay: 2s;
+}
+.ido h4:nth-child(2){
+    animation-delay: 4s;
+    
+}
+.ido h4:nth-child(3){
+    animation-delay: 6s;
+}
+
+
+
+.ido h4{
+    font-size: 2.4rem;
     padding-top: 30px;
 }
 
@@ -33,10 +51,23 @@
     .hero-name h1{
         font-size: 2.5rem;
     }
-    .hero-name h4{
+    .ido h4{
         font-size: 1.5rem;
         padding-top: 30px;
         
     }
    
+}
+
+
+@keyframes fade-in{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
 }
