@@ -1,4 +1,6 @@
-
+*{
+    font-size: 0.9rem;
+}
 .hero-container{
     padding-top: 10px;
 }
@@ -15,23 +17,26 @@
   
 }
 .hero-name h1{
-    font-size: 5vw;
+    font-size: 3.5rem;
 }
 .hero-name h4{
-    font-size: 3vw;
+    font-size: 2rem;
+    padding-top: 30px;
 }
 
 
 @media (max-width:990px){
-    .hero-name{
+    .hero-name {
         font-size: 1.5rem;
         padding-top: 15rem;
     }
-    *{
-        font-size: 0.9rem;
+    .hero-name h1{
+        font-size: 2.5rem;
     }
-}
-.hero-name h4{
-    padding-top: 30px;
-    
+    .hero-name h4{
+        font-size: 1.5rem;
+        padding-top: 30px;
+        
+    }
+   
 }

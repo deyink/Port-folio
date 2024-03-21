@@ -33,7 +33,7 @@ nav ul li:hover::after{
 }
 @media(max-width:990px){
     nav ul li:hover::after{
-    width: 20%;
+    width: 40%;
     }
 }
 
@@ -56,6 +56,7 @@ nav ul li:hover::after{
 
 .title{
     color: blue;
+    font-size: 1.5rem;
 }
 nav ul{
     display: flex;
@@ -66,7 +67,7 @@ nav ul{
 ul li{
     list-style: none;
     cursor: pointer;
-    font-size: 0.9rem;
+  
     
     
 }
@@ -87,6 +88,9 @@ margin: 15px;
     align-items: center;
     margin-top: auto;
     margin-bottom: auto;
+}
+.navlist ul li{
+    
 }
 @media(min-width:990px){
 .navlist{
