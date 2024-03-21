@@ -1,10 +1,11 @@
 .portfolio-container{
-    width: 90%;
-    margin: 5%;
+    width: 95%;
+    margin: auto;
     height: auto;
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
+    padding-bottom: 3rem;
     
 
 }
@@ -13,6 +14,7 @@
     font-weight: 700;
     font-size: 3rem;
     width: 100%;
+    margin-top: 3rem;
    
    
 }
@@ -24,7 +26,7 @@
     margin: auto;
     margin-top: 1rem;
     background-color: white;
-    border-radius: 15px;
+
     box-shadow: 1px 1px 10px 1px #8888;
 
 }
@@ -35,7 +37,7 @@
         margin: auto;
         margin-top: 1rem;
         background-color: white;
-        border-radius: 15px;
+      
         box-shadow: 1px 1px 10px 1px #8888;
     
     }
