@@ -1,5 +1,5 @@
 nav{
-    height: 10vh;
+    height: 11vh;
     padding-top: auto;
     padding-bottom: auto;
     background-color:rgb(8, 7, 7);
@@ -43,7 +43,7 @@ nav ul li:hover::after{
   
   .logo::after, .logo::before {
     content: '';
-    width: 0%;
+    width: 50%;
     height: 2px;
     background: white;
     display: block;
